@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<script>document.documentElement.classList.add('js');</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title data-i18n="doc.home">글로벌 법률사무소</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body data-page="home" style="font-family: Pretendard; font-size: 16px">
+
+<header id="site-head"></header>
+
+<!-- ════ HOME HERO ════ -->
+<section class="home-hero" data-screen-label="홈 히어로">
+  <div class="wrap">
+    <div class="hh-grid">
+      <!-- auto-scrolling hero banner -->
+      <div class="hbx reveal" data-hbx data-screen-label="히어로 배너">
+        <div class="hbx-track">
+          <a class="hbx-card t1" href="contact.html">
+            <div class="hbx-body"><span class="hbx-sub" data-i18n="hb1.sub"></span><h3 class="hbx-title" data-i18n="hb1.t"></h3><span class="hbx-cta" data-i18n="hb.cta"></span></div>
+            <div class="hbx-photo"><image-slot id="hb-1" class="hbx-img" shape="rect" placeholder="이미지 드래그"></image-slot></div><span class="hbx-emoji" aria-hidden="true">💬</span>
+          </a>
+          <a class="hbx-card t2" href="practice.html">
+            <div class="hbx-body"><span class="hbx-sub" data-i18n="hb2.sub"></span><h3 class="hbx-title" data-i18n="hb2.t"></h3><span class="hbx-cta" data-i18n="hb.cta"></span></div>
+            <div class="hbx-photo"><image-slot id="hb-2" class="hbx-img" shape="rect" placeholder="이미지 드래그"></image-slot></div><span class="hbx-emoji" aria-hidden="true">✈️</span>
+          </a>
+          <a class="hbx-card t3" href="industrial-accident.html">
+            <div class="hbx-body"><span class="hbx-sub" data-i18n="hb3.sub"></span><h3 class="hbx-title" data-i18n="hb3.t"></h3><span class="hbx-cta" data-i18n="hb.cta"></span></div>
+            <div class="hbx-photo"><image-slot id="hb-3" class="hbx-img" shape="rect" placeholder="이미지 드래그"></image-slot></div><span class="hbx-emoji" aria-hidden="true">👷</span>
+          </a>
+          <a class="hbx-card t4" href="civil-criminal.html">
+            <div class="hbx-body"><span class="hbx-sub" data-i18n="hb4.sub"></span><h3 class="hbx-title" data-i18n="hb4.t"></h3><span class="hbx-cta" data-i18n="hb.cta"></span></div>
+            <div class="hbx-photo"><image-slot id="hb-4" class="hbx-img" shape="rect" placeholder="이미지 드래그"></image-slot></div><span class="hbx-emoji" aria-hidden="true">⚖️</span>
+          </a>
+          <a class="hbx-card t5" href="about.html">
+            <div class="hbx-body"><span class="hbx-sub" data-i18n="hb5.sub"></span><h3 class="hbx-title" data-i18n="hb5.t"></h3><span class="hbx-cta" data-i18n="hb.cta"></span></div>
+            <div class="hbx-photo"><image-slot id="hb-5" class="hbx-img" shape="rect" placeholder="이미지 드래그"></image-slot></div><span class="hbx-emoji" aria-hidden="true">🌏</span>
+          </a>
+        </div>
+        <div class="hbx-bar">
+          <span class="hbx-progress"><span class="hbx-fill"></span></span>
+          <div class="hbx-panel">
+            <span class="hbx-count num"><span class="cur">1</span> <i>/</i> <span class="tot">5</span></span>
+            <div class="hbx-controls">
+              <button class="hbx-btn hbx-prev" type="button" aria-label="이전"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+              <button class="hbx-btn hbx-next" type="button" aria-label="다음"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+              <button class="hbx-btn hbx-pause" type="button" aria-label="일시정지">
+                <svg class="i-pause" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg>
+                <svg class="i-play" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5l12 7-12 7z"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ════ CATEGORY GRID ════ -->
+<section class="section bg-soft" data-screen-label="분야 그리드">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l"><span class="eyebrow" data-i18n="home.areas.eyebrow"></span><h2 class="sec-title" data-i18n="home.cat.title"></h2></div>
+      <p class="muted" style="font-size:15px;" data-i18n="home.cat.sub"></p>
+    </div>
+    <div class="cat-grid reveal">
+      <a class="cat-item" href="civil-criminal.html"><span class="cat-ic" aria-hidden="true">⚖️</span><span class="cat-l" data-i18n="ncat.1"></span></a>
+      <a class="cat-item" href="practice.html"><span class="cat-ic" aria-hidden="true">📝</span><span class="cat-l" data-i18n="ncat.2"></span></a>
+      <a class="cat-item" href="practice.html"><span class="cat-ic" aria-hidden="true">🚗</span><span class="cat-l" data-i18n="ncat.3"></span></a>
+      <a class="cat-item" href="industrial-accident.html"><span class="cat-ic" aria-hidden="true">👷</span><span class="cat-l" data-i18n="ncat.4"></span></a>
+      <a class="cat-item" href="practice.html"><span class="cat-ic" aria-hidden="true">✈️</span><span class="cat-l" data-i18n="ncat.5"></span></a>
+      <a class="cat-item" href="practice.html"><span class="cat-ic" aria-hidden="true">🛂</span><span class="cat-l" data-i18n="ncat.6"></span></a>
+      <a class="cat-item" href="practice.html"><span class="cat-ic" aria-hidden="true">🕊️</span><span class="cat-l" data-i18n="ncat.7"></span></a>
+      <a class="cat-item" href="practice.html"><span class="cat-ic" aria-hidden="true">⚠️</span><span class="cat-l" data-i18n="ncat.8"></span></a>
+      <a class="cat-item" href="practice.html"><span class="cat-ic" aria-hidden="true">🏢</span><span class="cat-l" data-i18n="ncat.9"></span></a>
+      <a class="cat-item more" href="practice.html"><span class="cat-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span><span class="cat-l" data-i18n="home.cat.more"></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ════ GLOBAL VALUE ════ -->
+<section class="section" data-screen-label="글로벌 가치">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="l">
+        <span class="eyebrow" data-i18n="home.global.eyebrow"></span>
+        <h2 class="sec-title" style="margin-top:16px;" data-i18n="home.global.title"></h2>
+      </div>
+      <p class="lead" style="font-size:1.05rem;max-width:38ch;" data-i18n="home.global.desc"></p>
+    </div>
+    <div class="hslider-wrap mag-wrap" data-hslider>
+      <button class="hs-nav prev" type="button" aria-label="이전"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+      <div class="hslider mag-track">
+        <article class="mag-card reveal g1">
+          <image-slot id="mag-1" shape="rect" placeholder="이미지를 드래그하세요"></image-slot>
+          <span class="mag-scrim" aria-hidden="true"></span>
+          <div class="mag-body">
+            <span class="mag-cat" data-i18n="mag.c1"></span>
+            <h3 class="mag-title" data-i18n="home.global.v1.t"></h3>
+            <p class="mag-desc" data-i18n="home.global.v1.d"></p>
+          </div>
+          <span class="mag-num">01</span>
+        </article>
+        <article class="mag-card reveal g2" data-d="1">
+          <image-slot id="mag-2" shape="rect" placeholder="이미지를 드래그하세요"></image-slot>
+          <span class="mag-scrim" aria-hidden="true"></span>
+          <div class="mag-body">
+            <span class="mag-cat" data-i18n="mag.c2"></span>
+            <h3 class="mag-title" data-i18n="home.global.v2.t"></h3>
+            <p class="mag-desc" data-i18n="home.global.v2.d"></p>
+          </div>
+          <span class="mag-num">02</span>
+        </article>
+        <article class="mag-card reveal g3" data-d="2">
+          <image-slot id="mag-3" shape="rect" placeholder="이미지를 드래그하세요"></image-slot>
+          <span class="mag-scrim" aria-hidden="true"></span>
+          <div class="mag-body">
+            <span class="mag-cat" data-i18n="mag.c3"></span>
+            <h3 class="mag-title" data-i18n="home.global.v3.t"></h3>
+            <p class="mag-desc" data-i18n="home.global.v3.d"></p>
+          </div>
+          <span class="mag-num">03</span>
+        </article>
+        <article class="mag-card reveal g4" data-d="3">
+          <image-slot id="mag-4" shape="rect" placeholder="이미지를 드래그하세요"></image-slot>
+          <span class="mag-scrim" aria-hidden="true"></span>
+          <div class="mag-body">
+            <span class="mag-cat" data-i18n="mag.c4"></span>
+            <h3 class="mag-title" data-i18n="home.global.v4.t"></h3>
+            <p class="mag-desc" data-i18n="home.global.v4.d"></p>
+          </div>
+          <span class="mag-num">04</span>
+        </article>
+      </div>
+      <button class="hs-nav next" type="button" aria-label="다음"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+    </div>
+    <div class="marquee" style="margin-top:clamp(28px,4vw,44px);">
+      <div class="marquee-track">
+        <span>한국어</span><span>English</span><span>Tiếng Việt</span><span>Русский</span><span>中文</span><span>Oʻzbekcha</span><span>ไทย</span><span>ខ្មែរ</span><span>සිංහල</span><span>नेपाली</span>
+        <span>한국어</span><span>English</span><span>Tiếng Việt</span><span>Русский</span><span>中文</span><span>Oʻzbekcha</span><span>ไทย</span><span>ខ្មែរ</span><span>සිංහල</span><span>नेपाली</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ CTA ════ -->
+<section class="section" style="padding-top:0;" data-screen-label="홈 CTA">
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <h2 class="h1" data-i18n="home.cta.title"></h2>
+      <p class="lead" data-i18n="home.cta.desc"></p>
+      <div class="btns">
+        <a class="btn btn--gold btn--lg" href="contact.html" data-i18n="btn.consult"></a>
+        <a class="btn btn--ghost btn--lg" href="tel:+82222772442"><span class="num">02 2277 2442</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="site-foot"></footer>
+
+<script src="image-slot.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
+
+<style id="__om-edit-overrides">
+#site-head [aria-label="Home"] >.brand-mark { background-position: center bottom !important }
+#site-head [aria-label="Home"] >.brand-mark { background-position: center top !important }
+</style>

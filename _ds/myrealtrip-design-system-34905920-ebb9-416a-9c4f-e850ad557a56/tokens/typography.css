@@ -1,0 +1,61 @@
+/* ─────────────────────────────────────────────────────────
+   MyRealTrip — Typography tokens
+   Pretendard everywhere. Bold, tight headlines; calm body.
+   Numerals & prices lean heavy; meta is muted.
+   ───────────────────────────────────────────────────────── */
+:root {
+  --font-sans: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+               "Malgun Gothic", "Segoe UI", Roboto, system-ui, sans-serif;
+  --font-display: var(--font-sans);
+  --font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+
+  /* weights  /* @kind font */
+  --fw-regular: 400;   /* @kind font */
+  --fw-medium: 500;    /* @kind font */
+  --fw-semibold: 600;  /* @kind font */
+  --fw-bold: 700;      /* @kind font */
+  --fw-extrabold: 800; /* @kind font */
+
+  /* type scale — px values for app-density UI */
+  --fs-display: 30px;   /* hero headline (까다로운 한국인 입맛…) */
+  --fs-h1: 24px;        /* screen title (내 여행) */
+  --fs-h2: 21px;        /* section header (최근 올라온 리뷰) */
+  --fs-h3: 18px;        /* card title / strong row */
+  --fs-title: 16px;     /* list item title, button label */
+  --fs-body: 15px;      /* default body */
+  --fs-sm: 14px;        /* secondary, chips */
+  --fs-caption: 13px;   /* meta, badges */
+  --fs-micro: 11px;     /* nav labels, fine print */
+
+  /* line-heights  /* @kind font */
+  --lh-tight: 1.25;     /* @kind font */
+  --lh-snug: 1.4;       /* @kind font */
+  --lh-body: 1.55;      /* @kind font */
+
+  /* letter-spacing — Korean sits best slightly tight */
+  --ls-tight: -0.03em;  /* display / headings */
+  --ls-snug: -0.02em;   /* titles, body */
+  --ls-normal: -0.01em;
+
+  /* ---- semantic roles ---- */
+  --type-display-size: var(--fs-display);
+  --type-display-weight: var(--fw-extrabold);
+  --type-display-ls: var(--ls-tight);
+  --type-display-lh: var(--lh-tight);
+
+  --type-h1-size: var(--fs-h1);
+  --type-h1-weight: var(--fw-bold);
+
+  --type-h2-size: var(--fs-h2);
+  --type-h2-weight: var(--fw-bold);
+
+  --type-title-size: var(--fs-title);
+  --type-title-weight: var(--fw-semibold);
+
+  --type-body-size: var(--fs-body);
+  --type-body-weight: var(--fw-regular);
+
+  --type-price-weight: var(--fw-bold);
+  --type-nav-size: var(--fs-micro);
+  --type-nav-weight: var(--fw-medium);
+}

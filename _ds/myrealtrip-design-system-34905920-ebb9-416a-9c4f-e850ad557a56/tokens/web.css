@@ -1,0 +1,35 @@
+/* ─────────────────────────────────────────────────────────
+   MyRealTrip — Desktop / PC web tokens
+   The app system is mobile-first; these add the wider, denser
+   layout primitives the web (myrealtrip.com) uses: a full-width
+   white GNB, a centered content column, and tighter web cards.
+   ───────────────────────────────────────────────────────── */
+:root {
+  /* content column — site is full-bleed white, content centered */
+  --web-content-w: 1200px;  /* @kind spacing */
+  --web-gutter: 24px;       /* @kind spacing */
+
+  /* global nav bar (GNB) row heights */
+  --gnb-top-h: 68px;        /* @kind spacing */
+  --gnb-cat-h: 60px;        /* @kind spacing */
+  --gnb-sub-h: 48px;        /* @kind spacing */
+
+  /* web search bar */
+  --web-search-w: 420px;    /* @kind spacing */
+  --web-search-h: 44px;     /* @kind spacing */
+
+  /* product grid (cards per row) */
+  --web-grid-cols: 4;       /* @kind other */
+  --web-grid-gap: 20px;     /* @kind spacing */
+  --web-card-radius: 12px;  /* @kind radius */
+
+  /* region circle category */
+  --region-size: 96px;      /* @kind spacing */
+
+  /* web hover — desktop has real hover; cards lift + darken */
+  --web-hover-lift: -2px;                                  /* @kind other */
+  --web-hover-shadow: 0 8px 24px rgba(26, 27, 30, 0.12);   /* @kind shadow */
+
+  /* web auth accent — the brighter login button blue */
+  --web-cta-blue: #1F8CFF;  /* @kind color */
+}

@@ -1,0 +1,59 @@
+/* ─────────────────────────────────────────────────────────
+   MyRealTrip — Color tokens
+   Clean white canvas · ink-black CTAs · azure-blue accent
+   purple for deals/community · coral-red for deal flags
+   ───────────────────────────────────────────────────────── */
+:root {
+  /* ---- Brand ---- */
+  --mrt-blue:        #1A8CFF;   /* signature azure — prices, links, selected */
+  --mrt-blue-strong: #0B6FE0;   /* pressed / on-light */
+  --mrt-blue-50:     #E8F2FF;   /* tint surfaces, info chips, best badge */
+  --mrt-purple:      #6B4EFF;   /* discount tab, 즉시확정, community */
+  --mrt-purple-2:    #5B30E8;   /* deeper purple — FAB gradient end, label */
+  --mrt-purple-soft: #EFEBFF;
+  --mrt-red:         #FF4F4F;   /* 최저가보장제 / 특가 deal flags */
+  --mrt-red-soft:    #FFECEC;
+  --mrt-green:       #18A957;   /* success, NEW */
+  --mrt-green-soft:  #E4F7EC;
+  --mrt-star:        #FFB400;   /* review stars */
+
+  /* ---- Ink / neutrals ---- */
+  --mrt-ink:      #1A1B1E;   /* primary text, black CTA bg */
+  --mrt-white:    #FFFFFF;
+  --mrt-gray-900: #24262B;   /* near-black body / chip text */
+  --mrt-gray-700: #4A4E55;   /* secondary text, ghost label */
+  --mrt-gray-600: #5F636B;   /* action link, muted meta */
+  --mrt-gray-500: #8A8F99;   /* tertiary / caption / placeholder */
+  --mrt-gray-400: #B4B8C0;   /* disabled, faint meta */
+  --mrt-gray-300: #D7DAE0;   /* strong divider */
+  --mrt-gray-100: #F1F2F4;   /* hairline / track / tile fill */
+  --mrt-gray-50:  #F7F8FA;   /* app canvas, soft tile */
+
+  /* ---- Semantic surfaces ---- */
+  --surface-page:   var(--mrt-white);
+  --surface-canvas: var(--mrt-gray-50);
+  --surface-card:   var(--mrt-white);
+  --surface-tile:   var(--mrt-gray-50);
+  --surface-sunken: var(--mrt-gray-100);
+
+  /* ---- Semantic text ---- */
+  --text-strong:    var(--mrt-ink);
+  --text-body:      var(--mrt-gray-900);
+  --text-secondary: var(--mrt-gray-700);
+  --text-tertiary:  var(--mrt-gray-500);
+  --text-disabled:  var(--mrt-gray-400);
+  --text-link:      var(--mrt-blue);
+  --text-on-dark:   var(--mrt-white);
+
+  /* ---- Semantic lines ---- */
+  --border-default:  #E6E8EC;
+  --border-subtle:   #F1F2F4;
+  --border-strong:   var(--mrt-gray-300);
+  --border-focus:    var(--mrt-blue);
+
+  /* ---- Actions ---- */
+  --action-primary:      var(--mrt-ink);
+  --action-primary-text: var(--mrt-white);
+  --action-accent:       var(--mrt-blue);
+  --action-accent-press: var(--mrt-blue-strong);
+}

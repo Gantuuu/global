@@ -1,0 +1,60 @@
+/* ─────────────────────────────────────────────────────────
+   MyRealTrip — Spacing, radius, shadow, layout, motion
+   8pt rhythm w/ 4pt half-steps · soft rounded cards · pill
+   controls · gentle ambient shadows (no harsh borders).
+   ───────────────────────────────────────────────────────── */
+:root {
+  /* spacing scale  /* @kind spacing */
+  --sp-0: 0px;     /* @kind spacing */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;    /* default gutter */
+  --sp-5: 20px;
+  --sp-6: 24px;    /* section padding */
+  --sp-7: 32px;
+  --sp-8: 40px;
+  --sp-9: 48px;
+  --sp-10: 64px;
+
+  --gutter: 16px;         /* screen side padding */
+  --section-gap: 32px;    /* between home sections */
+
+  /* radii — soft, friendly */
+  --r-xs: 6px;     /* badges */
+  --r-sm: 8px;
+  --r-md: 12px;    /* thumbnails, inputs */
+  --r-lg: 16px;    /* cards, tiles */
+  --r-xl: 20px;    /* hero / banner */
+  --r-2xl: 24px;
+  --r-pill: 999px; /* chips, segmented, FAB, CTA */
+  --r-circle: 50%; /* category avatars */
+
+  /* shadows — ambient, low-contrast */
+  --shadow-xs:    0 1px 2px rgba(26, 27, 30, 0.06);
+  --shadow-sm:    0 2px 8px rgba(26, 27, 30, 0.06);
+  --shadow-md:    0 4px 16px rgba(26, 27, 30, 0.08);
+  --shadow-lg:    0 8px 28px rgba(26, 27, 30, 0.12);
+  --shadow-brand: 0 6px 18px rgba(26, 140, 255, 0.30);  /* blue CTA glow */
+  --shadow-nav:   0 -2px 16px rgba(26, 27, 30, 0.06);   /* bottom-nav lift */
+  --shadow-fab:   0 8px 18px rgba(91, 48, 232, 0.45);   /* purple FAB glow */
+
+  /* control heights & hit targets  /* @kind spacing */
+  --control-h-sm: 36px;  /* @kind spacing */
+  --control-h-md: 46px;  /* @kind spacing */
+  --control-h-lg: 52px;  /* @kind spacing */
+  --tap-min: 44px;       /* @kind spacing */
+
+  /* layout  /* @kind spacing */
+  --app-max-w: 430px;    /* @kind spacing */
+  --nav-height: 60px;    /* @kind spacing */
+  --header-h: 56px;      /* @kind spacing */
+
+  /* motion */
+  --ease-standard: cubic-bezier(0.2, 0, 0.1, 1);   /* @kind other */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);       /* @kind other */
+  --dur-fast: 120ms;   /* @kind other */
+  --dur-base: 200ms;   /* @kind other */
+  --dur-slow: 320ms;   /* @kind other */
+  --press-scale: 0.96; /* @kind other */
+}
